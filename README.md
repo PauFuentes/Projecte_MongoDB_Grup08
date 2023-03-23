@@ -9,7 +9,7 @@ Pràctica 1 Bases de Dades no Relacionals MatCAD
 Aquest repositori conté el projecte de MongoDB que es duu a terme a la assignatura de Bases de Dades no Relacionals al grau de Matemàtica Computacional i Analítica de Dades.
 
 <p align="center">
-<img src="https://github.com/PauFuentes/Projecte_MongoDB_Grup08/blob/master/logo.jpg", widht="500">
+<img src="https://github.com/PauFuentes/Projecte_MongoDB_Grup08/blob/master/logo.jpg", widht="300", height="300">
 </p>
 
 ## Projecte MongoDB
