@@ -1,4 +1,5 @@
 from pymongo import MongoClient
+import pprint
 
 # establecer la conexión
 Host = 'dcccluster.uab.es' # localhost per connexions a la màquina main
@@ -55,11 +56,30 @@ Colleccio = Colleccio.to_dict('records')
 Publicacio = Publicacio.to_dict('records')
 Personatges = Personatges.to_dict('records')
 Artistes = Artistes.to_dict('records')
+
+for col in Colleccio:
+    col['genere'] = col['genere'].strip('][').split(', ')
+    col['ISBN_publicacions'] = col['ISBN_publicacions'].strip('][').split(',')
+    col['titol_publicacions'] = col['titol_publicacions'].strip('][').split(',')
+
+for pub in Publicacio:
+    pub['guionistes'] = pub['guionistes'].strip('][').split(',')
+    pub['dibuixants'] = pub['dibuixants'].strip('][').split(', ')
+    pub['id_dibuixants'] = pub['id_dibuixants'].strip('][').split(',')
+    pub['id_guionistes'] = pub['id_guionistes'].strip('][').split(',')
+
+for per in Personatges:
+    per['guionistes'] = per['guionistes'].strip('][').split(',')
+    per['dibuixants'] = per['dibuixants'].strip('][').split(', ')
+    per['id_dibuixants'] = per['id_dibuixants'].strip('][').split(',')
+    per['id_guionistes'] = per['id_guionistes'].strip('][').split(',')
+"""
 print(Editorial)
 print(Colleccio)
 print(Publicacio)
 print(Personatges)
 print(Artistes)
+"""
 # insertar los documentos en la colección
 collection = db['Editorial']
 collection.insert_many(Editorial)
