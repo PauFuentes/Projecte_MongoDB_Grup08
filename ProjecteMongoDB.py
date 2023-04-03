@@ -62,5 +62,16 @@ print(Personatges)
 print(Artistes)
 # insertar los documentos en la colección
 collection = db['Editorial']
+collection.insert_many(Editorial)
 
-#collection.insert_many(data1)
+collection = db['Publicacio']
+collection.insert_many(Publicacio)
+
+collection = db['Personatge']
+collection.insert_many(Personatges)
+
+collection = db['Colleccio']
+collection.insert_many(Colleccio)
+
+collection = db['Artista']
+collection.insert_many(Artistes)
