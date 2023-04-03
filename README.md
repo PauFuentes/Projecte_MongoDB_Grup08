@@ -2,7 +2,7 @@
 Pràctica 1 Bases de Dades No Relacionals MatCAD
 1. Judit Yebra Valencia, NIU: 1603614, Github user: JuditYebra, Contact: 1603614@uab.cat
 2. Pau Fuentes Hernández, NIU: 1600158, Github user: PauFuentes, Contact: 1600158@uab.cat
-3. Andrea Gonzalez Aguilera, NIU: *******, Github user: *****
+3. Andrea Gonzalez Aguilera, NIU: 1603921, Github user: andreaagonzaalez, Contact
 4. Xavier Seminario Monllaò, NIU: 1603853, Github user: *****
 
 ## Introducció 
