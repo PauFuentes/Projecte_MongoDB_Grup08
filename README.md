@@ -24,7 +24,7 @@ Finalment, es guardaran els artistes que han participat en la creació de les pu
 Amb aquesta informació que proporciona el diagrama s'han aplicat patrons de disseny per convertir el model a un conjunt de col·leccions i posteriorment s'ha editat l'Excel perquè es pugui treballar amb ell.
 
 ### Part 2: Implementació de l'script
-Posteriorment s'ha implementat un script en Python main.py -f dades.xlsx, el qual pren com a argument el fitxer Excel qui conté totes les dades.
+Posteriorment s'ha implementat un script en Python main.py, el qual pren com a argument el fitxer Excel qui conté totes les dades.
 
 ### Part 3: Joc de Proves
 Finalment s'han implementat les consultes dels jocs de proves en un script, i comprovat que els resultats siguin correctes.
