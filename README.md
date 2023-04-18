@@ -22,7 +22,6 @@ Aquest repositori conté el projecte de MongoDB que es duu a terme a l'assignatu
 
 ### Plantejament del problema
 En aquest projecte es treballarà el disseny, la implementació i la consulta a una base de dades en MongoDB.A partir d'uns requisits i material relacionat amb la base de dades, s'haurà d'implementar un script en Python que processi i insereixi les dades en una base de dades de MongoDB. Posteriorment, s'haurà d'implementar en el disseny ja creat deu consultes de les quals es tenen els resultats, fent així un joc de proves.
-<<<<<<< HEAD
 
 ### Part 1: Disseny ER
 Per començar es disposa d'un diagrama Entitat-Relació, el qual proporciona la següent informació:
